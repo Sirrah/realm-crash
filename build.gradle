@@ -2,17 +2,19 @@
 
 buildscript {
 	repositories {
+		mavenLocal()
 		jcenter()
 	}
 	dependencies {
 		classpath 'com.android.tools.build:gradle:2.2.3'
 
-		classpath 'io.realm:realm-gradle-plugin:2.3.0'
+		classpath 'io.realm:realm-gradle-plugin:2.4.0-SNAPSHOT'
 	}
 }
 
 allprojects {
 	repositories {
+		mavenLocal()
 		jcenter()
 	}
 }
